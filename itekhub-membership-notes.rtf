@@ -1,0 +1,457 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;\f2\froman\fcharset0 Times-Roman;
+\f3\fswiss\fcharset0 Helvetica;\f4\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;\red0\green0\blue233;
+\red57\green192\blue38;\red178\green178\blue178;\red135\green138\blue4;\red219\green39\blue218;\red202\green51\blue35;
+\red170\green171\blue37;\red19\green150\blue163;\red56\green185\blue199;\red199\green199\blue199;\red86\green32\blue244;
+}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c93333;
+\cssrgb\c25706\c77963\c19557;\cspthree\c75000\c75000\c75000;\cspthree\c60000\c60000\c18455;\cssrgb\c89513\c29736\c88485;\cssrgb\c83899\c28663\c18026;
+\cssrgb\c72331\c71682\c18599;\cssrgb\c0\c65000\c70000;\cssrgb\c25546\c77007\c82023;\cssrgb\c82112\c82112\c82112;\cssrgb\c41681\c25958\c96648;
+}
+\margl1440\margr1440\vieww12960\viewh7840\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 ********************************************\
+ITEKHUB-BACKEND\
+********************************************\
+Last login: Thu Oct 13 00:21:21 on ttys001\
+/dev/fd/12:18: command not found: compdef\
+\
+elijahodumosu@Elijahs-iMac ~ % export PATH=/Users/elijahodumosu/apache-maven-3.8.6/bin:$PATH\
+elijahodumosu@Elijahs-iMac git % cd itekhub-backend\
+elijahodumosu@Elijahs-iMac itekhub-backend % mvn -v\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
+\f0\b0 \
+Maven home: /Users/elijahodumosu/apache-maven-3.8.6\
+Java version: 17.0.4.1, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk-17.0.4.1.jdk/Contents/Home\
+Default locale: en_US, platform encoding: UTF-8\
+OS name: "mac os x", version: "12.6", arch: "x86_64", family: "mac"\
+\
+USING INTELLIJ IDE, CREATE THE \'93itekhub-membership\'94 JAVA CODE, MAVEN BUILD PROJECT IN THE DOCUMENT FOLDER \
+\
+CREATE AN EMPTY REMOTE (MASTER REPO/BRANCH) FOR THE \'93itekhub-membership\'94 PROJECT, IN THE \'93eodumosu\'94 GITHUB WORKSPACE\
+- https://github.com/eodumosu/itekhub-membership/tree/master\
+\
+\
+CREATE THE DEVELOP BRANCH FOR \'93itekhub-membership\'94 VIA MASTER BRANCH, IN THE \'93eodumosu\'94 GITHUB WORKSPACE\
+- https://github.com/eodumosu/itekhub-membership/tree/develop\
+\
+\
+IMPORT \'93itekhub-membership\'94 JAVA CODE FROM THE LOCAL DOCUMENT FOLDER ENVIRONMENT TO REMOTE (THE NEWLY CREATED DEVELOP BRANCH)\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs24 \cf0 \expnd0\expndtw0\kerning0
+\CocoaLigature1 Get started by {\field{\*\fldinst{HYPERLINK "https://github.com/eodumosu/angular-with-java/new/main"}}{\fldrslt \cf4 \ul \ulc4 creating a new file}} or {\field{\*\fldinst{HYPERLINK "https://github.com/eodumosu/angular-with-java/upload"}}{\fldrslt \cf4 \ul \ulc4 uploading an existing file}}. We recommend every repository include a {\field{\*\fldinst{HYPERLINK "https://github.com/eodumosu/angular-with-java/new/main?readme=1"}}{\fldrslt \cf4 \ul \ulc4 README}}, {\field{\*\fldinst{HYPERLINK "https://github.com/eodumosu/angular-with-java/new/main?filename=LICENSE.md"}}{\fldrslt \cf4 \ul \ulc4 LICENSE}}, and {\field{\*\fldinst{HYPERLINK "https://github.com/eodumosu/angular-with-java/new/main?filename=.gitignore"}}{\fldrslt \cf4 \ul \ulc4 .gitignore}}.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \CocoaLigature1 CLONE/DOWNLOAD THE DEVELOP BRANCH OF THE ITEKHUB-MEMBERSHIP JAVA CODE TO LOCAL ENVIRONMENT, VIA THE SSH LINK \
+- https://github.com/bbachi/angular-java-example\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 \
+elijahodumosu@Elijahs-iMac git % git clone -b develop git@github.com:eodumosu/itekhub-membership.git\
+Cloning into 'itekhub-membership'...\
+remote: Enumerating objects: 17, done.\
+remote: Counting objects: 100% (17/17), done.\
+remote: Compressing objects: 100% (14/14), done.\
+remote: Total 17 (delta 0), reused 0 (delta 0), pack-reused 0\
+Receiving objects: 100% (17/17), 10.62 KiB | 836.00 KiB/s, done.\
+elijahodumosu@Elijahs-iMac git % \
+\
+elijahodumosu@Elijahs-iMac ~ % cd git/itekhub-membership\
+elijahodumosu@Elijahs-iMac itekhub-membership % pwd\
+/Users/elijahodumosu/git/itekhub-membership\
+elijahodumosu@Elijahs-iMac itekhub-membership % git branch\
+* \cf5 develop\cf2 \
+elijahodumosu@Elijahs-iMac itekhub-membership % git pull\
+Already up to date.\
+elijahodumosu@Elijahs-iMac itekhub-membership % git checkout\
+Your branch is up to date with 'origin/develop'.\
+elijahodumosu@Elijahs-iMac itekhub-membership % \
+\
+elijahodumosu@Elijahs-iMac itekhub-membership % git add --all\
+elijahodumosu@Elijahs-iMac itekhub-membership % git \
+\
+\
+****************************************************\
+COMPILE THE ITEKHUB MEMBERSHIP FRONTEND\
+****************************************************\
+Last login: Thu Oct 13 07:42:42 on ttys002\
+/dev/fd/12:18: command not found: compdef\
+elijahodumosu@Elijahs-iMac ~ % pwd \
+/Users/elijahodumosu\
+elijahodumosu@Elijahs-iMac ~ % cd git/itekhub-membership/ui\
+elijahodumosu@Elijahs-iMac ui % pwd\
+/Users/elijahodumosu/git/itekhub-membership/ui\
+elijahodumosu@Elijahs-iMac ui % npm install\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2  \
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2  The package-lock.json file was created with an old version of npm,\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2  so supplemental metadata must be fetched from the registry.\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2  \
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2  This is a one-time fix-up, please be patient...\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2  \
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2  FetchError: Invalid response body while trying to fetch https://registry.npmjs.org/get-value: EACCES: permission denied, open '/Users/elijahodumosu/.npm/_cacache/index-v5/7d/ad/c4a86ec3e748ae644231f48089af7e5af9e3aa09dc40d6854e5ffa9561a9'\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2      at /usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/body.js:168:15\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2      at async RegistryFetcher.packument (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:99:25)\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2      at async RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:124:23)\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2      at async Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:784:9)\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2   Could not fetch metadata for get-value@2.0.6 FetchError: Invalid response body while trying to fetch https://registry.npmjs.org/get-value: EACCES: permission denied, open '/Users/elijahodumosu/.npm/_cacache/index-v5/7d/ad/c4a86ec3e748ae644231f48089af7e5af9e3aa09dc40d6854e5ffa9561a9'\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2      at /usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/body.js:168:15\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2      at async RegistryFetcher.packument (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:99:25)\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2      at async RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:124:23)\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2      at async Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:784:9) \{\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2    code: 'EACCES',\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2    errno: 'EACCES',\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2    syscall: 'open',\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2    path: '/Users/elijahodumosu/.npm/_cacache/index-v5/7d/ad/c4a86ec3e748ae644231f48089af7e5af9e3aa09dc40d6854e5ffa9561a9',\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2    type: 'system'\
+\cf6 \cb2 npm\cf2 \cb1  \cb7 WARN\cb1  \cf8 old lockfile\cf2  \}\
+\
+up to date, audited 1467 packages in 3m\
+\
+35 packages are looking for funding\
+  run `npm fund` for details\
+\
+
+\f1\b \cf9 82
+\f0\b0 \cf2  vulnerabilities (1 
+\f1\b low
+\f0\b0 , 39 
+\f1\b \cf10 moderate
+\f0\b0 \cf2 , 34 
+\f1\b \cf9 high
+\f0\b0 \cf2 , 8 
+\f1\b \cf8 critical
+\f0\b0 \cf2 )\
+\
+To address issues that do not require attention, run:\
+  npm audit fix\
+\
+To address all issues (including breaking changes), run:\
+  npm audit fix --force\
+\
+Run `npm audit` for details.\
+\cf6 \cb2 npm\cf2 \cb1  \cf11 \cb2 notice\cf2 \cb1  \
+\cf6 \cb2 npm\cf2 \cb1  \cf11 \cb2 notice\cf2 \cb1  New \cf10 minor\cf2  version of npm available! \cf9 8.15.0\cf2  -> \cf5 8.19.2\cf2 \
+\cf6 \cb2 npm\cf2 \cb1  \cf11 \cb2 notice\cf2 \cb1  Changelog: \cf12 https://github.com/npm/cli/releases/tag/v8.19.2\cf2 \
+\cf6 \cb2 npm\cf2 \cb1  \cf11 \cb2 notice\cf2 \cb1  Run \cf5 npm install -g npm@8.19.2\cf2  to update!\
+\cf6 \cb2 npm\cf2 \cb1  \cf11 \cb2 notice\cf2 \cb1  \
+\
+\
+****************************************************\
+RUN THE ITEKHUB-MEMBERSHIP FRONTEND\
+**************************************************** \
+elijahodumosu@Elijahs-iMac ui % npm start\
+\
+> angular-nodejs-example@0.0.0 start\
+> ng serve\
+\
+\
+chunk \{
+\f1\b \cf10 main
+\f0\b0 \cf2 \} 
+\f1\b \cf5 main.js, main.js.map
+\f0\b0 \cf2  (main) 38.6 kB 
+\f1\b \cf10 [initial]\cf5  [rendered]
+\f0\b0 \cf2 \
+chunk \{
+\f1\b \cf10 polyfills
+\f0\b0 \cf2 \} 
+\f1\b \cf5 polyfills.js, polyfills.js.map
+\f0\b0 \cf2  (polyfills) 140 kB 
+\f1\b \cf10 [initial]\cf5  [rendered]
+\f0\b0 \cf2 \
+chunk \{
+\f1\b \cf10 runtime
+\f0\b0 \cf2 \} 
+\f1\b \cf5 runtime.js, runtime.js.map
+\f0\b0 \cf2  (runtime) 6.15 kB 
+\f1\b \cf10 [entry]\cf5  [rendered]
+\f0\b0 \cf2 \
+chunk \{
+\f1\b \cf10 styles
+\f0\b0 \cf2 \} 
+\f1\b \cf5 styles.js, styles.js.map
+\f0\b0 \cf2  (styles) 1.09 MB 
+\f1\b \cf10 [initial]\cf5  [rendered]
+\f0\b0 \cf2 \
+chunk \{
+\f1\b \cf10 vendor
+\f0\b0 \cf2 \} 
+\f1\b \cf5 vendor.js, vendor.js.map
+\f0\b0 \cf2  (vendor) 3.73 MB 
+\f1\b \cf10 [initial]\cf5  [rendered]
+\f0\b0 \cf2 \
+Date: 
+\f1\b \cf13 2022-10-13T12:00:09.588Z
+\f0\b0 \cf2  - Hash: 
+\f1\b \cf13 d535de989dd1bdd0ce59
+\f0\b0 \cf2  - Time: 
+\f1\b \cf13 45264
+\f0\b0 \cf2 ms\
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **\
+: Compiled successfully.\
+\
+\
+GOT TO http://localhost:4200/\
+\
+\
+******************************************************************\
+COMMIT \'93itekhub-membership\'94 PROJRCT CODE TO REMOTE\
+******************************************************************\
+\
+\
+\
+******************************************************************\
+PUSH \'93itekhub-membership\'94 PROJRCT CODE TO REMOTE\
+******************************************************************\
+\
+\
+\
+******************************************************************\
+BUILD THE ITEKHUB-MEMBERSHIP BACKEND CODE WITHOUT TESTS\
+******************************************************************\
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs26 \cf0 \expnd0\expndtw0\kerning0
+\CocoaLigature1 // Build Java Code for 8080\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 mvn clean install -DskipTests
+\f4\fs26 \cf0 \expnd0\expndtw0\kerning0
+\CocoaLigature1  (without testing)\
+\pard\pardeftab720\partightenfactor0
+\cf0 mvn clean install (with testing)\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 ******************************************************************\
+RUN THE ITEKHUB-MEMBERSHIP BACKEND CODE\
+******************************************************************
+\f4\fs26 \cf0 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 // Run Java Code on 8080\
+java -jar target/users-0.0.1-SNAPSHOT.jar\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+elijahodumosu@Elijahs-iMac itekhub-membership % mvn clean install -DskipTests\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Scanning for projects...\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b ------------------------< 
+\f0\b0 \cf12 com.itekhub:itekhub
+\f1\b \cf2  >-------------------------
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b Building itekhub 0.0.1-SNAPSHOT
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b --------------------------------[ jar ]---------------------------------
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b --- 
+\f0\b0 \cf5 maven-clean-plugin:3.1.0:clean\cf2  
+\f1\b (default-clean)
+\f0\b0  @ \cf12 itekhub
+\f1\b \cf2  ---
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b --- 
+\f0\b0 \cf5 maven-resources-plugin:3.2.0:resources\cf2  
+\f1\b (default-resources)
+\f0\b0  @ \cf12 itekhub
+\f1\b \cf2  ---
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Using 'UTF-8' encoding to copy filtered resources.\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Using 'UTF-8' encoding to copy filtered properties files.\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Copying 1 resource\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Copying 0 resource\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b --- 
+\f0\b0 \cf5 maven-compiler-plugin:3.8.1:compile\cf2  
+\f1\b (default-compile)
+\f0\b0  @ \cf12 itekhub
+\f1\b \cf2  ---
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Changes detected - recompiling the module!\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Compiling 6 source files to /Users/elijahodumosu/git/itekhub-membership/target/classes\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b --- 
+\f0\b0 \cf5 maven-resources-plugin:3.2.0:testResources\cf2  
+\f1\b (default-testResources)
+\f0\b0  @ \cf12 itekhub
+\f1\b \cf2  ---
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Using 'UTF-8' encoding to copy filtered resources.\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Using 'UTF-8' encoding to copy filtered properties files.\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] skip non existing resourceDirectory /Users/elijahodumosu/git/itekhub-membership/src/test/resources\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b --- 
+\f0\b0 \cf5 maven-compiler-plugin:3.8.1:testCompile\cf2  
+\f1\b (default-testCompile)
+\f0\b0  @ \cf12 itekhub
+\f1\b \cf2  ---
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Changes detected - recompiling the module!\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Compiling 1 source file to /Users/elijahodumosu/git/itekhub-membership/target/test-classes\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b --- 
+\f0\b0 \cf5 maven-surefire-plugin:2.22.2:test\cf2  
+\f1\b (default-test)
+\f0\b0  @ \cf12 itekhub
+\f1\b \cf2  ---
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Tests are skipped.\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b --- 
+\f0\b0 \cf5 maven-jar-plugin:3.2.0:jar\cf2  
+\f1\b (default-jar)
+\f0\b0  @ \cf12 itekhub
+\f1\b \cf2  ---
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Building jar: /Users/elijahodumosu/git/itekhub-membership/target/itekhub-0.0.1-SNAPSHOT.jar\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b --- 
+\f0\b0 \cf5 spring-boot-maven-plugin:2.6.2:repackage\cf2  
+\f1\b (repackage)
+\f0\b0  @ \cf12 itekhub
+\f1\b \cf2  ---
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Replacing main artifact with repackaged archive\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b --- 
+\f0\b0 \cf5 maven-install-plugin:2.5.2:install\cf2  
+\f1\b (default-install)
+\f0\b0  @ \cf12 itekhub
+\f1\b \cf2  ---
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Installing /Users/elijahodumosu/git/itekhub-membership/target/itekhub-0.0.1-SNAPSHOT.jar to /Users/elijahodumosu/.m2/repository/com/itekhub/itekhub/0.0.1-SNAPSHOT/itekhub-0.0.1-SNAPSHOT.jar\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Installing /Users/elijahodumosu/git/itekhub-membership/pom.xml to /Users/elijahodumosu/.m2/repository/com/itekhub/itekhub/0.0.1-SNAPSHOT/itekhub-0.0.1-SNAPSHOT.pom\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b ------------------------------------------------------------------------
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b \cf5 BUILD SUCCESS
+\f0\b0 \cf2 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b ------------------------------------------------------------------------
+\f0\b0 \
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Total time:  01:02 min\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] Finished at: 2022-10-13T08:12:07-04:00\
+[
+\f1\b \cf14 INFO
+\f0\b0 \cf2 ] 
+\f1\b ------------------------------------------------------------------------
+\f0\b0 \
+elijahodumosu@Elijahs-iMac itekhub-membership % 
+\f4\fs26 \cf0 \expnd0\expndtw0\kerning0
+\CocoaLigature1 java -jar target/itekhub-0.0.1-SNAPSHOT.jar\
+\
+}
