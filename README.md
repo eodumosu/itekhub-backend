@@ -1,2 +1,2 @@
-# itekhub-backend
+# itekhub-membership
 ITEKHUB Angular-Java Membership Project
