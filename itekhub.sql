@@ -1,0 +1,52 @@
+select * from membermanager.member;
+ 
+ALTER TABLE `membermanager`.`member` ADD member_code VARCHAR(255);
+COMMIT;
+
+INSERT INTO `membermanager`.`member`(member_code) VALUES (null);
+COMMIT;
+
+UPDATE `membermanager`.`member`
+SET
+`id` = 1,
+`age` = 61,
+`email` = 'eodumosu@itekhub.org',
+`first_name` = 'Elijah',
+`grade` = 'MSc',
+`image_url` = 'https://www.itekhub.org',
+`job_title` = 'Chairman and Chief Technical Officer',
+`last_name` = 'Odumosu',
+`phone` = '7204993161',
+`member_code` = '2e1ff125-c755-4810-89a8-968c8f975ad8'
+WHERE `id` = 1;
+
+UPDATE `membermanager`.`member`
+SET
+`id` = 2,
+`age` = 29,
+`email` = 'omeboi92@gmail.com',
+`first_name` = 'Omotayo',
+`grade` = 'MSc.',
+`image_url` = 'https://www.itekhub.org',
+`job_title` = 'Chairman and CEO',
+`last_name` = 'Odumosu',
+`phone` = '6479137335',
+`member_code` = '3cd91362-4e8e-465d-b152-20f6a0f38e46'
+WHERE `id` = 2;
+
+UPDATE `membermanager`.`member`
+SET
+`id` = 3,
+`age` = 25,
+`email` = 'funmiodumosu0@gmail.com',
+`first_name` = 'Dr. Oluwafunmi',
+`grade` = 'PhD - Doctor of Philosophy',
+`image_url` = 'https://www.itekhub.org',
+`job_title` = 'Epidemeologist, Kinesiologist PhD.',
+`last_name` = 'Odumosu',
+`phone` = '5179180384',
+`member_code` = '417ae536-74b4-40ee-b116-a31ed2fa1bb1'
+WHERE `id` = 3;
+
+COMMIT;
+
