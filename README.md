@@ -1,2 +1,2 @@
 # itekhub-backend
-ITEKHUB Amgular-Java Membership Project
+ITEKHUB Angular-Java Membership Project
