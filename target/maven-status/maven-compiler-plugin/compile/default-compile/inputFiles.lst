@@ -1,6 +1,6 @@
 /Users/elijahodumosu/git/itekhub-membership/src/main/java/com/itekhubmanager/exception/UserNotFoundException.java
-/Users/elijahodumosu/git/itekhub-membership/src/main/java/com/itekhubmanager/MemberManagerApplication.java
 /Users/elijahodumosu/git/itekhub-membership/src/main/java/com/itekhubmanager/service/MemberService.java
 /Users/elijahodumosu/git/itekhub-membership/src/main/java/com/itekhubmanager/repo/MemberRepo.java
 /Users/elijahodumosu/git/itekhub-membership/src/main/java/com/itekhubmanager/model/Member.java
+/Users/elijahodumosu/git/itekhub-membership/src/main/java/com/itekhubmanager/ItekhubManagerApplication.java
 /Users/elijahodumosu/git/itekhub-membership/src/main/java/com/itekhubmanager/controller/MemberController.java

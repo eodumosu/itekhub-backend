@@ -12,10 +12,10 @@ public class Member implements Serializable {
     private String firstName;
     private String lastName;
     private String email;
-    private String jobTitle;
     private String phone;
-    private String grade;
     private int age;
+    private String grade;
+    private String jobTitle;
     private String imageUrl; //could be file//
     @Column(nullable = false, updatable = false)
     private String memberCode;
@@ -27,10 +27,10 @@ public class Member implements Serializable {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
-        this.jobTitle = jobTitle;
         this.phone = phone;
-        this.grade = grade;
         this.age = age;
+        this.grade = grade;
+        this.jobTitle = jobTitle;
         this.imageUrl = imageUrl;
         this.memberCode = memberCode;
     }
@@ -67,20 +67,20 @@ public class Member implements Serializable {
         this.email = email;
     }
 
-    public String getJobTitle() {
-        return jobTitle;
-    }
-
-    public void setJobTitle(String jobTitle) {
-        jobTitle = jobTitle;
-    }
-
     public String getPhone() {
         return phone;
     }
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public String getGrade() {
@@ -91,12 +91,12 @@ public class Member implements Serializable {
         this.grade = grade;
     }
 
-    public int getAge() {
-        return age;
+    public String getJobTitle() {
+        return jobTitle;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setJobTitle(String jobTitle) {
+        jobTitle = jobTitle;
     }
 
     public String getImageUrl() {

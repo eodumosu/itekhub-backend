@@ -3,4 +3,4 @@ com/itekhubmanager/controller/MemberController.class
 com/itekhubmanager/exception/UserNotFoundException.class
 com/itekhubmanager/service/MemberService.class
 com/itekhubmanager/model/Member.class
-com/itekhubmanager/MemberManagerApplication.class
+com/itekhubmanager/ItekhubManagerApplication.class
